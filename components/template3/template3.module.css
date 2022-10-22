@@ -1,0 +1,36 @@
+/* CUSTOM STYLES FOR TEMPLATE 3 */
+
+/* vertical header archive */
+.customHeader {
+    position: fixed;
+    height: 100%;
+    z-index: 99;
+    width: 132px;
+    box-shadow: inset -1px -1px 6px 2px rgba(0 0 0 / 15%);
+    background: white;
+
+}
+
+.shadowHeader {
+    box-shadow: 1px -1px 6px 1px rgb(0 0 0 / 22%);
+}
+
+.coverPageImage {
+    height: 50vh ;
+    width: auto;
+    position: relative;
+    right: 0;
+}
+
+
+
+@media (min-width: 1024px) {
+    .coverPageImage {
+        height: 90vh
+    }
+
+    /* layout archive */
+    .customLayout {
+        margin-left: 128px
+    }
+}
